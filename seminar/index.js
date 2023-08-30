@@ -59,8 +59,8 @@ const capitalizeFirstLetter = (str) => {
 }
 console.log(capitalizeFirstLetter('строка1, строка2, строка3'));
 
-const capitalizeFirstLetter = (str) => str.split(' ').map(el => el[0].toUpperCase() + el.slice(1)).join(' ');
-console.log(capitalizeFirstLetter('строка1, строка2, строка3'));
+// const capitalizeFirstLetter = (str) => str.split(' ').map(el => el[0].toUpperCase() + el.slice(1)).join(' ');
+// console.log(capitalizeFirstLetter('строка1, строка2, строка3'));
 
 // Напишите функцию createCalculator, которая принимает начальное
 // значение и возвращает объект с двумя методами: add и subtract.
@@ -92,10 +92,10 @@ const createGreeting = (name) =>
 const greeting = createGreeting('John');
 greeting();
 
-const createGreeting = (name) => {
-	const greering = (name) => `Hello, ${name}`;
-	return greering(name);
-};
+// const createGreeting = (name) => {
+// 	const greering = (name) => `Hello, ${name}`;
+// 	return greering(name);
+// };
 
 console.log(createGreeting('Alex'));
 
